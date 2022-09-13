@@ -1,0 +1,22 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "startclient": "nodemon clientserver",
+    "startstore": "nodemon storeserver"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  },
+  "dependencies": {
+    "express": "^4.18.1",
+    "sequelize": "^6.21.6",
+    "sequelize-logger": "^1.0.0",
+    "sqlite3": "^5.0.11"
+  }
+}
