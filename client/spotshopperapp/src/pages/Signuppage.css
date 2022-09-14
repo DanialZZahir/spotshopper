@@ -30,7 +30,9 @@
     color: #61dafb;
   }
   
-  
+  /* #signuptext {
+    text-
+  } */
   
   /* @keyframes App-logo-spin {
     from {
@@ -40,4 +42,17 @@
       transform: rotate(360deg);
     }
   } */
+
+  .firstbutton {
+    position: fixed;
+    margin: 0px;
+    left: 115px;
+    border: none;
+    background: none;
+    top: 400px;
+}
   
+#alreadyuser{
+  position: fixed;
+  top: 450px;
+}

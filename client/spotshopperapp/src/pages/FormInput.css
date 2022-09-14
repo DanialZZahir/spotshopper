@@ -1,0 +1,12 @@
+.signupformcontainer{
+    height: 60vh;
+}
+
+input{
+    padding: 13px;
+    margin: 3px;
+    width: 200px;
+    border-radius: 30px;
+    border-color: #FF914D;
+    border-style: none;
+}
