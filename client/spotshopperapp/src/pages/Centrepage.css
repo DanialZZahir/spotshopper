@@ -1,0 +1,24 @@
+.container {
+    background-color: #5271FF;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.spot-logo {
+    height: 40px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+  
+
+.centreheader{
+    max-height: 25px;
+    position:relative;
+    bottom: -1px;
+}

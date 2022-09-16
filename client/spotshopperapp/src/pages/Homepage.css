@@ -1,0 +1,57 @@
+.container {
+    background-color: #5271FF;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.HomePage-logo {
+    height: 40px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+  
+
+.rightarrow{
+    max-height: 25px;
+    position:relative;
+    bottom: -1px;
+}
+
+.centreBox{
+    background-color: white;
+    padding: 30px;
+    border-width: 2px;
+    max-width: 70px;
+    min-height: 40px;
+    border-radius: 10px;
+    position: absolute;
+    border-color: black;
+    border-color: black;
+    border-style: outset;
+    top: 80px;
+    left: 10px;
+}
+
+.centreButton{
+    background-color: transparent;
+    border-width: 1.5px;
+    min-width: 120px;
+    max-height: 35px;
+    border-radius: 8px;
+    position: relative;
+    top: 30px;
+    left: -25px;
+    margin: 0px;
+    
+}
+
+.centreButton:hover {
+    background-color:#FF914D
+    
+}

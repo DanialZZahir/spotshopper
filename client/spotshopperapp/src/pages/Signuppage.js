@@ -3,6 +3,7 @@ import arrowsymbol from '../arrow-button.png';
 import FormInput from './FormInput';
 import { useState } from 'react';
 import './Signuppage.css';
+import Loadingpage from './Loadingpage';
 // import Loadingpage from './Loadingpage';
 
 function Signuppage() {
@@ -59,7 +60,7 @@ function Signuppage() {
 
   console.log(values)
 
-  const [ icClicked, setIsClicked ] = useState(false);
+  const [ isClicked, setIsClicked ] = useState(false);
 
   return (
     <div className="App">
@@ -75,12 +76,12 @@ function Signuppage() {
         <div >
             <button className="firstbutton" type="submit" onClick={() => setIsClicked(true)}>
               <img src={arrowsymbol}  width="50" height="50" alt="Right Arrow Button" /></button>
-            {/* {isClicked ? <Signuppage /> : null} */}
+            {/* { isClicked && <Loadingpage />} */}
         </div>
         
       </form> 
       </div>
-        <div id="alreadyuser"><p >Already a User?</p></div>
+        <div id="alreadyuser"><p>Already a User?</p></div>
       </header>
     </div>
   );
