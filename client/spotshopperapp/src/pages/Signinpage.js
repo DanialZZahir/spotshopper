@@ -2,9 +2,9 @@ import logo from '../spot-logo.png';
 import arrowsymbol from '../arrow-button.png';
 import FormInput from './FormInput';
 import { useState } from 'react';
-import './Signuppage.css';
+import './Signinpage.css'
 
-function Signuppage() {
+function Signinpage() {
   const [values, setValues] = useState({
     Username:"",
     Email:"",
@@ -58,20 +58,18 @@ function Signuppage() {
 
   console.log(values)
 
-  
   const [ isClicked, setIsClicked ] = useState(false);
-  
+
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <div><h1 id="signuptext">SIGN UP</h1></div>
+        <div><h1 id="signuptext">SIGN IN</h1></div>
       <div className="signupformcontainer">
       <form onSubmit={handleSubmit}>
         {inputs.map(input=>(
           <FormInput key={input.id} {...input} value={values[input.name]} onChange={onChange} />
-          ))}
-          {/* <h1>{values.Username}</h1> */}
+        ))}
         
         <div >
             <button className="submitbutton" type="submit" onClick={() => setIsClicked(true)}>
@@ -80,11 +78,10 @@ function Signuppage() {
         
       </form> 
       </div>
-        <div id="alreadyuser"><p>Already a User?</p></div>
-        {/* <link to='/Signinpage' id="signinlink">SIGN IN</link> */}
+        <a href="/Signuppage.js" id="backtosignup">Back to Sign Up</a>
       </header>
     </div>
   );
 }
 
-export default Signuppage
+export default Signinpage

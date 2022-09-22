@@ -1,0 +1,68 @@
+.container{
+    background-color: #5271FF
+}
+
+.footlocker-logo{
+    position: absolute;
+    height: 90px;
+    left: 70px;
+    top: 45px;
+}
+
+.options{
+    position: absolute;
+    left: 20px;
+    top: 120px;
+}
+
+.reserveButton{
+    border-radius: 50px;
+    height: 65px;
+    width: 250px;
+    position: fixed;
+    bottom: 110px;
+    background-color: #555555;
+    border-style: none;
+    box-shadow:#000000;
+}
+
+.reserveButton:hover {
+    box-shadow: 0 5px #ff914d;
+    transform: translateY(2px);
+    cursor: pointer;
+}
+
+.reserveText{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 100;
+    font-size: 2.5em;
+    position: relative;
+    top: -12px;
+    color: white;
+}
+
+.buyButton{
+    border-radius: 50px;
+    height: 65px;
+    width: 250px;
+    position: fixed;
+    bottom: 35px;
+    background-color: #7ed957;
+    border-style: none;
+    box-shadow:#000000;
+}
+
+.buyButton:hover {
+    box-shadow: 0 5px #ff914d;
+    transform: translateY(2px);
+    cursor: pointer;
+}
+
+.buyText{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 100;
+    font-size: 2.5em;
+    position: relative;
+    top: -12px;
+    color: black;
+}

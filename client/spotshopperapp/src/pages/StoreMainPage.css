@@ -1,0 +1,34 @@
+.container{
+    background-color: #5271FF
+}
+
+.footlocker-logo{
+    position: absolute;
+    height: 90px;
+    left: 70px;
+    top: 45px;
+}
+
+.category{
+    position: absolute;
+    left: 20px;
+    top: 120px;
+}
+
+.categoryBox{
+    border-radius: 20px;
+    min-height: 110px;
+    background-color: white;
+}
+
+.categoryBox:hover {
+    background-color: white;
+    box-shadow: 0 5px #ff914d;
+    transform: translateY(2px);
+    cursor: pointer;
+}
+
+.categoryName{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 100;
+}

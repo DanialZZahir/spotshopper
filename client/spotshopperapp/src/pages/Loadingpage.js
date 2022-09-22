@@ -9,6 +9,9 @@ function Loadingpage() {
           <h3 id="welcome">WELCOME!</h3>
         </div>
         <img src={logo} className="loadingPage-logo" alt="logo" />
+         <div>
+          <h4 id="convenient">Convenient Shopping.</h4>
+        </div>
       </header>
     </div>
   );

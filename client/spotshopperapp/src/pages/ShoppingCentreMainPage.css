@@ -1,0 +1,56 @@
+.centreNameBox{
+    background-color: white;
+    min-width: 230px;
+    min-height: 40px;
+    border-radius: 10px;
+    position: absolute;
+    top: 75px;
+    margin: 0px;
+    padding: 10px;
+}
+
+#centreNameText{
+    color: black;
+    position: relative;
+    left: 60px;
+    margin: 0px;
+    padding: 0px;
+    font-size: larger;
+    font-weight: 500;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 4px;
+    inline-size: 20px;
+    text-align: center;
+}
+
+.shopNameBox{
+    background-color: white;
+    min-width: 255px;
+    min-height: 50px;
+    border-radius: 50px;
+    position: absolute;
+    top: 150px;
+    margin: 0px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.shopNameBox:hover{
+    background-color: white;
+    box-shadow: 0 5px #ff914d;
+    transform: translateY(2px);
+}
+
+#shopNameText{
+    color: black;
+    position: relative;
+    right: 20px;
+    margin: 0px;
+    padding: 0px;
+    font-size: larger;
+    font-weight: 500;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 4px;
+    /* inline-size: 0px; */
+    /* text-align: center; */
+}

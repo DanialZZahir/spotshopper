@@ -1,18 +1,24 @@
 import React from 'react'
-// import Test from './test'
-// import { useState } from 'react';
 import Signuppage from './pages/Signuppage'
 import Loadingpage from './pages/Loadingpage';
 import Homepage from './pages/Homepage';
-import Centrepage from './pages/Centrepage';
+import Signinpage from './pages/Signinpage';
+import ShoppingCentreMainPage from './pages/ShoppingCentreMainPage';
+import StoreMainPage from './pages/StoreMainPage';
+import CategoryMainPage from './pages/categoryMainPage';
+import ItemMainPage from './pages/ItemMainPage';
 
 function App() {
     return (
         <div>
             {/* <Loadingpage /> */}
-            {/* <Signuppage />  */}
-            <Homepage />
-            {/* <Centrepage /> */}
+            {/* <Signuppage /> */}
+            {/* <Signinpage /> */}
+            {/* <Homepage /> */}
+            {/* <ShoppingCentreMainPage /> */}
+            {/* <StoreMainPage /> */}
+            {/* <CategoryMainPage /> */}
+            <ItemMainPage />
         </div>
     )
 }

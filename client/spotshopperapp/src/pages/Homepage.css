@@ -15,6 +15,16 @@
     top: 20px;
     left: 20px;
   }
+
+#homePageText{
+    font-size: small;
+    font-weight: 800;
+    position: fixed;
+    inline-size: 80px;
+    left: 110px;
+    top: 10px;
+    text-align: center;
+}
   
 
 .rightarrow{
@@ -34,8 +44,14 @@
     border-color: black;
     border-color: black;
     border-style: outset;
-    top: 80px;
+    top: 100px;
     left: 10px;
+}
+
+.centreBox:hover{
+    background-color: white;
+    box-shadow: 0 5px #ff914d;
+    transform: translateY(2px);
 }
 
 .centreButton{
